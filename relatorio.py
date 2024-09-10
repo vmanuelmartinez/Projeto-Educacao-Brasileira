@@ -68,7 +68,7 @@ pdf.image("Analfabetismo-Oeste.png", 20, 140, 170)
 
 # ---- Quinta Página ---- #
 pdf.add_page()
-pdf.subtitulo("Comparação em desagregação em % de matriculos entre homens e mulheres")
+pdf.subtitulo("Comparação em desagregação em % de matrículas entre homens e mulheres")
 pdf.paragrafo("\n")
 
 pdf.paragrafo("A análise da desagregação das porcentagens de matrículas entre homens e mulheres é crucial para entender as disparidades e promover a igualdade de oportunidades educacionais.")
@@ -77,4 +77,26 @@ pdf.paragrafo("Em muitas instituições educacionais e sistemas de ensino ao red
 
 pdf.image("Comparacao-Desagregacao-homem-mulher.png", 10, 85, 180 )
 
+# ---- Ultima página - Conclusão ---- #
+pdf.add_page()
+pdf.subtitulo("Conlusão")
+
+pdf.paragrafo("\n")
+
+pdf.paragrafo("A análise da educação no Brasil revela um cenário complexo e desafiador, onde a desigualdade continua a ser um obstáculo significativo para o desenvolvimento social e econômico. As disparidades regionais no analfabetismo destacam a necessidade urgente de políticas educacionais direcionadas. Regiões como o Norte e o Nordeste, que apresentam as maiores taxas de analfabetismo, requerem atenção especial para garantir que todos os brasileiros tenham acesso a uma educação básica de qualidade.")
+
+
+
+pdf.paragrafo("Além disso, a desagregação das matrículas entre homens e mulheres expõe as desigualdades de gênero que persistem no sistema educacional. Embora tenha havido avanços significativos na equidade de gênero, ainda existem áreas em que os homens são mais prevalentes, especialmente em cursos técnicos e áreas STEM (Ciência, Tecnologia, Engenharia e Matemática). Por outro lado, as mulheres têm maior representação em áreas das ciências sociais e da saúde, refletindo tendências tradicionais que precisam ser desafiadas para promover uma participação mais equilibrada em todas as áreas de estudo.")
+
+pdf.paragrafo("Essa análise deixa claro que, para alcançar uma educação verdadeiramente inclusiva e equitativa no Brasil, é fundamental implementar políticas públicas que abordem tanto as disparidades regionais quanto as de gênero. Investir em programas de alfabetização nas regiões mais carentes e promover a igualdade de acesso a todas as áreas de estudo para homens e mulheres são passos essenciais para superar as desigualdades existentes. Somente assim será possível construir um sistema educacional que ofereça oportunidades iguais para todos os cidadãos, independentemente de sua localização geográfica ou gênero.")
+
+pdf.paragrafo("\n")
+pdf.paragrafo("\n")
+pdf.paragrafo("\n")
+
+
+pdf.paragrafo("Feito por: Víctor Manuel Martínez Fuentes - São Paulo SP.")
+
 pdf.output("Analise.pdf")
+
